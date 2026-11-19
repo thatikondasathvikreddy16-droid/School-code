@@ -1,0 +1,13 @@
+# Ignore all files with no extension (compiled executables like test)
+*
+!*/
+!*.*
+!.gitignore
+
+# Still ignore build and macOS files that do have extensions
+*.dSYM/
+*.out
+*.o
+.DS_Store
+
+.vscode/
